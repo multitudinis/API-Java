@@ -20,13 +20,13 @@ public class entrega implements Serializable{
 	private long id;
 	private long idEntregador;
 	private long idDestinatario;
-	
 	private long cnpj;
+	
 	private long cnpjDestinatario;
 	private String razaoSocial;
-	private String endereçoDestinatario;
 	private String endereçoRemetente;
 	private String nomeDestinatario;
+	private String endereçoDestinatario;
 	private String nomeProduto;
 	private Double peso;
 	private Double volume;
