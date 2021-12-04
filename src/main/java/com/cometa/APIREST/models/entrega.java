@@ -22,6 +22,7 @@ public class entrega implements Serializable{
 	private long idDestinatario;
 	private long cnpj;
 	
+	private boolean entregaFeita;
 	private long cnpjDestinatario;
 	private String razaoSocial;
 	private String endereçoRemetente;
@@ -50,6 +51,12 @@ public class entrega implements Serializable{
 	}
 	public void setIdDestinatario(long idDestinatario) {
 		this.idDestinatario = idDestinatario;
+	}
+	public boolean isEntregaFeita() {
+		return entregaFeita;
+	}
+	public void setEntregaFeita(boolean entregaFeita) {
+		this.entregaFeita = entregaFeita;
 	}
 	public String getRazaoSocial() {
 		return razaoSocial;
